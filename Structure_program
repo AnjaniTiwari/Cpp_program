@@ -22,7 +22,7 @@ int main()
     cout<<"Enter Book id";
     cin>>b3.bId;
     cout<<"\nEnter Book Title";
-    cin.getline(b3.bTitle,20); //error keyboard input skip
+    cin>>b3.bTitle;
     cout<<"\nEnter Book Price";
     cin>>b3.bPrice;
     cout<<"\n"<<b3.bId<<" "<<b3.bTitle<<" "<<b3.bPrice<<endl;
