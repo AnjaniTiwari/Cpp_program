@@ -3,18 +3,18 @@ using namespace std;
 class complex_no
 {
 private:
-    int n1,n2;
+    int n1,n2;                      \\instance member variable
 public:
-    void set_data(int a,int b)
+    void set_data(int a,int b)      \\instance member function
     {
         n1=a;
         n2=b;
     }
-    void show_data()
+    void show_data()                \\instance member function
     {
         cout<<endl<<n1<<" "<<n2;
     }
-    complex_no add(complex_no o)
+    complex_no add(complex_no o)    \\instance member function
     {
         complex_no temp;
         temp.n1=n1+o.n1;
